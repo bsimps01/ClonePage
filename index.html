@@ -1,46 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" conent="ie=edge">
-    <title>Da Da Da, Da Da Da</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://bootswatch.com/4/spacelab/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ESPN</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
 
-<!--Navbar-->
-<nav class="navbar navbar-expand navbar-dark bg-secondary">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand navbar-dark bg-secondary" style="background-color: #e3f2fd;">
         <a class="navbar-brand" href="www.espn.com">ESPN</a>
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">NFL <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="www.espn.com">NFL <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="www.espn.com">NBA</a>
             <a class="nav-item nav-link" href="www.espn.com">MLB</a>
-            <a calss="nav-item nav-link" href="www.espn.com">NCAAF</a>
-            <a calss="nav-item nav-link" href="www.espn.com">Soccer</a>
-            <a calss="nav-item nav-link" href="www.espn.com">MMA</a>
-            <a calss="nav-item nav-link" href="www.espn.com">Golf</a>
+            <a class="nav-item nav-link" href="www.espn.com">NCAAF</a>
+            <a class="nav-item nav-link" href="www.espn.com">Soccer</a>
+            <a class="nav-item nav-link" href="www.espn.com">MMA</a>
+            <a class="nav-item nav-link" href="www.espn.com">Golf</a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            </form>
         </div>
     </nav>
-
     <!--Sidebar-->
-    <!-- The sidebar -->
-<div class="sidebar">
-        <a class="active" href="www.espn.com">ESPN +</a>
-        <a href="www.espn.com">UFC 244: Masvidal vs. Diaz</a>
-        <a href="www.espn.com">NFL PrineTime on ESPN+</a>
-        <a href="www.espn.com">Peyton's Places</a>
-        <a href="www.espn.com">Detail: Peyton on Jacoby Brissett</a>
-        <a href="www.espn.com">Peyton's Places</a>
-      </div>
-      <div class="sidebar">
-            <a class="active" href="www.espn.com">Quick Links</a>
-            <a href="www.espn.com">College Football Rankings</a>
-            <a href="www.espn.com">NFL Trade Tracker</a>
-            <a href="www.espn.com">2019 World Series</a>
-            <a href="www.espn.com">2019 MLS Cup Playoffs</a>
-            <a href="www.espn.com">ESPN Daily Podcast</a>
+    <div class="col-sm-4">
+        <ul class="list-group">
+            <li class="list-group-item"><a href="www.espn.com">ESPN +</a></li>
+            <li class="list-group-item"><a href="www.espn.com">UFC 244: Masvidal vs. Diaz</a></li>
+            <li class="list-group-item"><a href="www.espn.com">NFL PrineTime on ESPN+</a></li>
+            <li class="list-group-item"><a href="www.espn.com">Peyton's Places</a></li>
+            <li class="list-group-item"><a href="www.espn.com">Detail: Peyton on Jacoby Brissett</a></li>
+            <li class="list-group-item"><a href="www.espn.com">Peyton's Places</a></li>
+        </ul>
+          </div>
+          <div class="col-sm-4">
+            <li class="list-group-item"><a class="active" href="www.espn.com">Quick Links</a></li>
+            <li class="list-group-item"><a href="www.espn.com">College Football Rankings</a></li>
+            <li class="list-group-item"><a href="www.espn.com">NFL Trade Tracker</a></li>
+            <li class="list-group-item"><a href="www.espn.com">2019 World Series</a></li>
+            <li class="list-group-item"><a href="www.espn.com">2019 MLS Cup Playoffs</a></li>
+            <li class="list-group-item"><a href="www.espn.com">ESPN Daily Podcast</a></li>
+            </div>
         </div>
+    </div>
+  <!-- HERO -->
+  <div class="col-md-4">
+  <div class="jumbotron text-center">
+        <h1>Light That Baby Up!</h1>
+        <p class="lead">Angels win another game against the Astros, rolling through their 12th straight win.</p>
+        <a href="www.espn.com" class="btn btn-primary">Read the full article here</a>
+    </div>
+    </div>
+  \
+
+
+  <!-- BENEFITS -->
+  <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>Safe</h3>
+            <p class="lead"></p>
+          </div>
+          <div class="col-lg-4">
+            <h3>Healthy</h3>
+            <p class="lead"></p>
+          </div>
+          <div class="col-lg-4">
+            <h3>Fun</h3>
+            <p class="lead"></p>
+          </div>
+        </div>
+      </div>
+
+  <!-- CALL TO ACTION -->
+  <div class="jumbotron text-center">
+        <p class="lead mb-4">Sign Up for More Infomation</p>
+        <div class="d-flex justify-content-center">
+          Form Goes Here
+        </div>
+    </div>
+  <!-- FOOTER -->
+  <div class="bg-secondary p-5 text-white">
+        &copy; 2019 ESPN-ish Inc
+      </div>
+</body>
+</html>
